@@ -1,0 +1,14 @@
+# .gitignore mq-test-framework
+# gradle
+.gradle/
+bin/
+build/
+
+# intellij
+.idea/
+
+# vs code
+.settings/
+.classpath
+.project
+
