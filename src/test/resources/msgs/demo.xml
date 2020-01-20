@@ -2,4 +2,11 @@
     <message>
         <demo>TEST</demo>
     </message>
+    <message>
+        <address primary="true">
+            <number>10</number>
+            <street>Seseme Street</street>
+            <postcode>SS1 0AA</postcode>
+        </address>
+    </message>
 </root>
