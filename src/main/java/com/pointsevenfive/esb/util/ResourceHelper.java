@@ -13,7 +13,7 @@ public class ResourceHelper {
         try {
             resource = Resources.toString(url, Charsets.UTF_8);
         } catch (IOException e) {
-            System.err.println(String.format("Unable to find resource at: %s", path));
+            System.err.println(String.format("Unable to open resource at: %s", path));
         }
         return resource;
     }
